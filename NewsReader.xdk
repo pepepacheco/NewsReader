@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-grid-view-js/sample.zip",
       "projectGuid": "e5d2f051-0a50-4040-b627-bd1361c1d4d8",
-      "lastModifiedDate": 1490603839178,
+      "lastModifiedDate": 1490605445943,
       "creationDate": 1488794918816
     },
     "sourceDirectory": "www",

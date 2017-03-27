@@ -42,7 +42,7 @@ $.feed.cargarAlimentador = function (url, tipo, caja){
             for (var i=0; i<cantidad; i++){
                 var item = $("<div></div>");
                 
-                var ancla = $("<a href='"+arrayNoticias[i].link+"' target='_blank' data-rel='external'>"+arrayNoticias[i].title+"</a>");
+                var ancla = $("<a href='"+arrayNoticias[i].link + "' target='_blank' data-rel='external'>" + arrayNoticias[i].title+"</a>");
                 
                 item.append(ancla);
                 
