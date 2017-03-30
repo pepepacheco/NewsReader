@@ -70,18 +70,26 @@
                 <li><div class="grid-photo-box"><a href="#item1"><img src="" /></a></div></li>
                 <li><div class="grid-photo-box"><a href="#addRSS"><span id="mas" class="btn btn-success"> + </span></a></div></li>
                 
-            </div>
-            <a id="more" class="button block">Load More</a>
+              </div>
             </div>
 
             <!--Detail View Pages for each grid item-->
             <div class="panel" data-title="Item 1" id="item1">
                 <p>This is detail view for Item 1</p>
             </div>
-
+            <!-- Formulario para añadir un RSS o un ATOM -->
             <div class="panel" data-title="Añadir alimentador" id="addRSS">
                 <h2>Añadir alimentador</h2>
-                
+                <div class="container well">
+                    <div class="form-group">
+                        <label for="nombreAli">Nombre:</label>
+                        <input type="text" class="form-control" id="nombreAli" placeholder="Nombre para el alimentador">
+                    </div>
+                    <div class="form-group">
+                        <label for="urlAli">URL:</label>
+                        <input type="text" class="form-control" id="urlAli" placeholder="URL del alimentador">
+                    </div>
+                </div>
             </div>
             
 
