@@ -3,7 +3,7 @@
 <html>
 
 <head>
-
+    
     <title>Grid View Template</title>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, minimal-ui" />
@@ -17,9 +17,13 @@
     <script type="text/javascript" charset="utf-8" src="lib/fastclick.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="lib/appframework/appframework.ui.min.js"></script>
         
-    <script src="js/feed.js"></script>    
-    <script src='cordova.js'></script>
-
+    <script src="js/feed.js"></script>
+    <script src="js/error.js"></script>
+    <script src="js/marcadores.js"></script>
+    <script src="cordova.js"></script>
+    <!-- <script src="js/db.js"></script>-->
+    <script src="js/index.js"></script>
+    
     <style>
     /* CSS responsive square grid */
     .grid-photo {margin:3px -1px;}
@@ -82,16 +86,22 @@
                 <h2>Añadir alimentador</h2>
                 <div class="container well">
                     <div class="form-group">
-                        <label for="nombreAli">Nombre:</label>
+                        <!-- <label for="nombreAli">Nombre:</label> -->
                         <input type="text" class="form-control" id="nombreAli" placeholder="Nombre para el alimentador">
                     </div>
                     <div class="form-group">
-                        <label for="urlAli">URL:</label>
+                        <!-- <label for="urlAli">URL:</label>-->
                         <input type="text" class="form-control" id="urlAli" placeholder="URL del alimentador">
+                    </div>
+                    <div class="form-group">
+                        <div onclick="addChannel()" class="btn btn-success"> Añadir </div>
                     </div>
                 </div>
             </div>
             
+            <!-- Formulario para añadir un RSS o un ATOM -->
+            <div class="panel" data-title="Error" id="error">
+            </div>
 
             <div class="panel" data-title="Item 24" id="item24">
                 <p>This is detail view for Item 14</p>
