@@ -10,11 +10,11 @@ var marcadores = [
 ];
 */
 
-var marcadores = {};
+$.marcadores = {};
 
-marcadores.lista = [];
+$.marcadores.lista = [];
 
-marcadores.add = function(nombre, url) {
+$.marcadores.add = function(nombre, url) {
     $.ajax({
         url: "http://query.yahooapis.com/v1/public/yql",
         jsonp: "callback",
@@ -30,8 +30,8 @@ marcadores.add = function(nombre, url) {
                     "nombre":nombre, 
                     "url":url, 
                     "tipo":"rss"};
-                marcadores.lista.push(alimentador);
-                ges_error.noerror();
+                $.marcadores.lista.push(alimentador);
+                $.ges_error.noerror();
             } else {
                 // probar con atom               
                 $.ajax({
@@ -49,27 +49,37 @@ marcadores.add = function(nombre, url) {
                                 "nombre":nombre, 
                                 "url":url, 
                                 "tipo":"atom"};
-                            marcadores.lista.push(alimentador);
-                            ges_error.noerror();
+                            $.marcadores.lista.push(alimentador);
+                            $.ges_error.noerror();
                         } else {
                             // ERROR
-                            ges_error.alert('Error al procesar el canal', 'No he podido comprobar el tipo de canal RSS-ATOM. Compruebe que la URL es correcta.');  
+                            $.ges_error.alert('Error al procesar el canal', 'No he podido comprobar el tipo de canal RSS-ATOM. Compruebe que la URL es correcta.');
                         }
                     }
                 });
             }
-        }
+        },
+        error: function(XHR, textStatus, errorThrown) {
+            $.ges_error.alert('Error de conexión', 'No ha sido posible añadir el canal, compruebe su conexión a Internet.');
+        },
+        timeout: 3000
     });
 };
 
 // Vuelca a localStorage los marcadores
-marcadores.save = function(){
-    
+$.marcadores.save = function(){
+    // TO-DO
 };
 
 // Carga de localStorage los marcadores
-marcadores.load = function(){
-    
+$.marcadores.load = function(){
+    // lo inventamos para propósitos de desarrollo...
+    $.marcadores.lista =  [
+        {nombre:"Ideal Jaén", url:"http://www.ideal.es/jaen/rss/atom/portada",
+        tipo:"atom"},
+        {nombre:"Slashdot", url:"http://rss.slashdot.org/Slashdot/slashdotLinuxAtom", tipo:"atom"},
+        {nombre:"CNN", url:"http://rss.cnn.com/rss/edition.rss", tipo:"rss"}
+    ];
 };
 
 

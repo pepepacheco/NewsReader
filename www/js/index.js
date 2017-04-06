@@ -18,8 +18,23 @@ document.addEventListener('deviceready', onDeviceReady, false);
 /** Al cargar la aplicación **/ 
 function onDeviceReady() {
     // cargar marcadores
-    
-    
+    $.marcadores.load();
+    generarRejilla();
+    /* var SQLite = window.cordova.require('cordova-sqlite-plugin.SQLite');
+
+    var sqlite = new SQLite('waste.db');
+
+    sqlite.open(function(err) {
+        if (err) {
+            console.log(err);
+        } else {
+            sqlite.query('CREATE TABLE DataM (Name VARCHAR (100) NOT NULL, Price DECIMAL NOT NULL, Quantity INT NOT NULL, Date DATETIME NOT NULL', [], function(err, res) {
+                if (err) throw err;
+                console.log(res.rows[0].solution);
+            });
+        }
+    });*/
+
 /*    
   log('SQLite Example');
   var SQLite = window.cordova.require('cordova-sqlite-plugin.SQLite');
@@ -45,9 +60,40 @@ function onDeviceReady() {
 
 
 function addChannel(){
-    marcadores.add($("#nombreAli").val(), $("#urlAli").val() );
+    $.marcadores.add($("#nombreAli").val(), $("#urlAli").val() );
 }
 
+function generarRejilla(){
+    /*
+    PANEL:
+    <div class="panel" data-title="Item 1" id="item1">
+                <p>This is detail view for Item 1</p>
+    </div>
+
+    REJILLA:
+    <li>
+        <div class="grid-photo-box">
+            <a href="#id_canal">NOMBRE DEL CANAL</a>
+        </div>
+    </li>
+    */
+    var caja, lista;
+    for (var i=0; i< $.marcadores.lista.length; i++){
+        // para los paneles
+        caja = $("<div></div>");
+        caja.addClass("panel");
+        caja.attr("data-tittle", $.marcadores.lista[i].nombre);
+        caja.attr("id","item"+i);
+        $("#paneles").append(caja);
+        // para la rejilla
+        lista = $("<li></li>");
+        caja = $("<div></div>");
+        caja.addClass("grid-photo-box");
+        caja.append("<a href='#item"+i+"'>"+ $.marcadores.lista[i].nombre+" </a>");
+        lista.append(caja);
+        $("#rejilla").append(lista);
+    }
+}
 
 
 
