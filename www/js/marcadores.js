@@ -31,7 +31,8 @@ $.marcadores.add = function(nombre, url) {
                     "url":url, 
                     "tipo":"rss"};
                 $.marcadores.lista.push(alimentador);
-                $.ges_error.noerror();
+                $.ges_error.addChanelRejilla(alimentador);
+                $.marcadores.save();
             } else {
                 // probar con atom               
                 $.ajax({
@@ -49,8 +50,8 @@ $.marcadores.add = function(nombre, url) {
                                 "nombre":nombre, 
                                 "url":url, 
                                 "tipo":"atom"};
-                            $.marcadores.lista.push(alimentador);
-                            $.ges_error.noerror();
+                            $.marcadores.lista.push(alimentador);                            $.ges_error.addChanelRejilla(alimentador);
+                            $.marcadores.save();                      
                         } else {
                             // ERROR
                             $.ges_error.alert('Error al procesar el canal', 'No he podido comprobar el tipo de canal RSS-ATOM. Compruebe que la URL es correcta.');
@@ -68,18 +69,26 @@ $.marcadores.add = function(nombre, url) {
 
 // Vuelca a localStorage los marcadores
 $.marcadores.save = function(){
-    // TO-DO
+    localStorage.setItem('canales',JSON.stringify($.marcadores.lista));
+    // $.ges_error.generarRejilla($.marcadores.lista);
+    $.ges_error.noerror();
 };
 
 // Carga de localStorage los marcadores
 $.marcadores.load = function(){
     // lo inventamos para propósitos de desarrollo...
-    $.marcadores.lista =  [
+    /*$.marcadores.lista =  [
         {nombre:"Ideal Jaén", url:"http://www.ideal.es/jaen/rss/atom/portada",
         tipo:"atom"},
         {nombre:"Slashdot", url:"http://rss.slashdot.org/Slashdot/slashdotLinuxAtom", tipo:"atom"},
         {nombre:"CNN", url:"http://rss.cnn.com/rss/edition.rss", tipo:"rss"}
-    ];
+    ];*/
+    $.marcadores.lista = JSON.parse(localStorage.getItem('canales'));
+    if ($.marcadores.lista === null) {
+        $.marcadores.lista = new Array(0);
+    } else {
+        $.ges_error.generarRejilla($.marcadores.lista);
+    }
 };
 
 
