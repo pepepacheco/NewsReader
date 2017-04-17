@@ -20,6 +20,19 @@ function onDeviceReady() {
     // cargar marcadores
     $.marcadores.load();
     generarRejilla();
+    
+    
+    var db = null;
+    // iOS
+    // db = $cordovaSQLite.openDB({ name: 'mydb.db', location: 'default' });
+    // Android
+    db = window.openDatabase("mydb.db", '1.0', 'My DB', 1024 * 1024 * 100);
+    
+    $cordovaSQLite.execute(db, "CREATE TABLE IF NOT EXISTS ranking (ranking_id integer primary key, ranking_titulo text, ranking_anio text, ranking_categoria text, ranking_detalle text)");
+
+    
+    
+    
     /* var SQLite = window.cordova.require('cordova-sqlite-plugin.SQLite');
 
     var sqlite = new SQLite('waste.db');
