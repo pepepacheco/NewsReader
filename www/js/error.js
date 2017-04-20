@@ -67,6 +67,8 @@ $.ges_error.addChanelRejilla = function(canal, pos){
 
 
 $.ges_error.refreshChannel = function(posicion){
+    var url = $.marcadores.lista[posicion].url;
+    var nombre = $.marcadores.lista[posicion].nombre; 
     // hay que actualizar #itemPOSICION
     if ($.marcadores.lista[posicion].tipo === 'rss') { //rss
         $.ajax({
@@ -79,6 +81,22 @@ $.ges_error.refreshChannel = function(posicion){
             },
             success: function( response ) { 
                 // Aquí proceso el código
+                var i;
+                var caja;                
+                // Guardo el ARRAY de noticias de este canal
+                var lista = response.query.results.item; 
+                for (i=0;i<response.query.count;i++){
+                    caja = $("<div></div>");
+                    caja.addClass("well well-sm");
+                    caja.attr("data-tittle", nombre);
+                    caja.append("<h3>"+lista[i].title+"</h3><br/>");
+                    if (lista[i].description!==undefined){
+                        caja.append("<p>"+lista[i].description+"</p>");
+                    }
+                    caja.append("<p> <a href='"+lista[i].link+"'>Pulse aquí para abrir la noticia.</a></p>");
+                    caja.append("<p>"+lista[i].pubDate+"</p>");                  
+                    $("#item"+posicion).append(caja);
+                }
             },
             error: function(XHR, textStatus, errorThrown) {
                 $.ges_error.alert('Error de conexión', 'No ha sido posible añadir el canal, compruebe su conexión a Internet.');
@@ -87,20 +105,20 @@ $.ges_error.refreshChannel = function(posicion){
         });
     } else { // atom
         $.ajax({
-        url: "http://query.yahooapis.com/v1/public/yql",
-        jsonp: "callback",
-        dataType: "jsonp",
-        data: {
-            q: "select * from atom where url=\""+url+"\"",
-            format: "json"
-        },
-        success: function( response ) { 
-            // Aquí proceso el JSON
-        },
-        error: function(XHR, textStatus, errorThrown) {
-            $.ges_error.alert('Error de conexión', 'No ha sido posible añadir el canal, compruebe su conexión a Internet.');
-        },
-        timeout: 3000
+            url: "http://query.yahooapis.com/v1/public/yql",
+            jsonp: "callback",
+            dataType: "jsonp",
+            data: {
+                q: "select * from atom where url=\""+url+"\"",
+                format: "json"
+            },
+            success: function( response ) { 
+                // Aquí proceso el JSON
+            },
+            error: function(XHR, textStatus, errorThrown) {
+                $.ges_error.alert('Error de conexión', 'No ha sido posible añadir el canal, compruebe su conexión a Internet.');
+            },
+            timeout: 3000
         });
     }
 };
