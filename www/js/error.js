@@ -62,16 +62,46 @@ $.ges_error.addChanelRejilla = function(canal, pos){
     caja.addClass("grid-photo-box");
     caja.append("<a href='#item"+donde+"'>"+ canal.nombre+" </a>");
     lista.append(caja);
-    $("#rejilla").append(lista);
+    $("#rejilla").prepend(lista);
 };
 
 
 $.ges_error.refreshChannel = function(posicion){
     // hay que actualizar #itemPOSICION
     if ($.marcadores.lista[posicion].tipo === 'rss') { //rss
-        
+        $.ajax({
+            url: "http://query.yahooapis.com/v1/public/yql",
+            jsonp: "callback",
+            dataType: "jsonp",
+            data: {
+                q: "select * from rss where url=\""+url+"\"",
+                format: "json"
+            },
+            success: function( response ) { 
+                // Aquí proceso el código
+            },
+            error: function(XHR, textStatus, errorThrown) {
+                $.ges_error.alert('Error de conexión', 'No ha sido posible añadir el canal, compruebe su conexión a Internet.');
+            },
+            timeout: 3000
+        });
     } else { // atom
-        
+        $.ajax({
+        url: "http://query.yahooapis.com/v1/public/yql",
+        jsonp: "callback",
+        dataType: "jsonp",
+        data: {
+            q: "select * from atom where url=\""+url+"\"",
+            format: "json"
+        },
+        success: function( response ) { 
+            // Aquí proceso el JSON
+        },
+        error: function(XHR, textStatus, errorThrown) {
+            $.ges_error.alert('Error de conexión', 'No ha sido posible añadir el canal, compruebe su conexión a Internet.');
+        },
+        timeout: 3000
+        });
     }
 };
 
