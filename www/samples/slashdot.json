@@ -1,0 +1,368 @@
+{
+ "query": {
+  "count": 15,
+  "created": "2017-04-27T06:57:01Z",
+  "lang": "en-US",
+  "diagnostics": {
+   "publiclyCallable": "true",
+   "url": {
+    "execution-start-time": "0",
+    "execution-stop-time": "61",
+    "execution-time": "61",
+    "content": "http://rss.slashdot.org/Slashdot/slashdotLinuxAtom"
+   },
+   "user-time": "63",
+   "service-time": "61",
+   "build-version": "2.0.84"
+  },
+  "results": {
+   "entry": [
+    {
+     "id": "https://linux.slashdot.org/story/17/04/24/1633209/linux-411-delayed-for-a-week?utm_source=atom1.0mainlinkanon&utm_medium=feed",
+     "title": "Linux 4.11 Delayed For a Week",
+     "link": {
+      "href": "http://rss.slashdot.org/~r/Slashdot/slashdotLinuxatom/~3/h4qd7b0O3e0/linux-411-delayed-for-a-week"
+     },
+     "summary": {
+      "type": "html",
+      "content": "Linux kernel creator Linus Torvalds said over the weekend that v4.11 version of Linux has hit a speed bump in the form of \"NVMe power management that apparently causes problems on some machines.\" The Register adds: \"It's not entirely clear what caused the [NVMe] issue (it wasn't just limited to some NVMe hardware, but also particular platforms), but let's test it.\" Which sounds like a good idea, given that flash memory on the PCIe bus is increasingly mainstream. That problem and \"a couple of really annoying\" bugs mean that Torvalds has decided to do an eighth release candidate for Linux 4.11. \"I did get fixes for the issues that popped up, so I could have released 4.11 as-is,\" Torvalds wrote, \"but it just doesn't feel right.\"<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=Linux+4.11+Delayed+For+a+Week%3A+http%3A%2F%2Fbit.ly%2F2oYEP5c\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Flinux.slashdot.org%2Fstory%2F17%2F04%2F24%2F1633209%2Flinux-411-delayed-for-a-week%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n<a class=\"nobg\" href=\"http://plus.google.com/share?url=https://linux.slashdot.org/story/17/04/24/1633209/linux-411-delayed-for-a-week?utm_source=slashdot&amp;utm_medium=googleplus\" onclick=\"javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;\"><img src=\"http://www.gstatic.com/images/icons/gplus-16.png\" alt=\"Share on Google+\"/></a>                                                                                                                                                                              \n\n\n\n</div></p><p><a href=\"https://linux.slashdot.org/story/17/04/24/1633209/linux-411-delayed-for-a-week?utm_source=atom1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p><img src=\"http://feeds.feedburner.com/~r/Slashdot/slashdotLinuxatom/~4/h4qd7b0O3e0\" height=\"1\" width=\"1\" alt=\"\"/>"
+     },
+     "updated": "2017-04-24T20:40:00+00:00",
+     "author": {
+      "name": "msmash"
+     },
+     "category": {
+      "term": "bug"
+     },
+     "department": "high-threshold",
+     "section": "linux",
+     "comments": "48",
+     "hit_parade": "48,45,19,18,3,1,1",
+     "origLink": "https://linux.slashdot.org/story/17/04/24/1633209/linux-411-delayed-for-a-week?utm_source=atom1.0mainlinkanon&utm_medium=feed"
+    },
+    {
+     "id": "https://linux.slashdot.org/story/17/04/24/1511239/the-linux-foundation-launches-iot-focused-open-source-edgex-foundry?utm_source=atom1.0mainlinkanon&utm_medium=feed",
+     "title": "The Linux Foundation Launches IoT-focused Open Source EdgeX Foundry",
+     "link": {
+      "href": "http://rss.slashdot.org/~r/Slashdot/slashdotLinuxatom/~3/mZrdBKs7sv0/the-linux-foundation-launches-iot-focused-open-source-edgex-foundry"
+     },
+     "summary": {
+      "type": "html",
+      "content": "Reader BrianFagioli writes: Today, The Linux Foundation launches the open source EdgeX Foundry -- an attempt to unify and simplify the Internet of Things. The Linux Foundation says, \"EdgeX Foundry is unifying the marketplace around a common open framework and building an ecosystem of companies offering interoperable plug-and-play components. Designed to run on any hardware or operating system and with any combination of application environments, EdgeX can quickly and easily deliver interoperability between connected devices, applications, and services, across a wide range of use cases. Interoperability between community-developed software will be maintained through a certification program.\"<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=The+Linux+Foundation+Launches+IoT-focused+Open+Source+EdgeX+Foundry%3A+http%3A%2F%2Fbit.ly%2F2pWILSr\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Flinux.slashdot.org%2Fstory%2F17%2F04%2F24%2F1511239%2Fthe-linux-foundation-launches-iot-focused-open-source-edgex-foundry%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n<a class=\"nobg\" href=\"http://plus.google.com/share?url=https://linux.slashdot.org/story/17/04/24/1511239/the-linux-foundation-launches-iot-focused-open-source-edgex-foundry?utm_source=slashdot&amp;utm_medium=googleplus\" onclick=\"javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;\"><img src=\"http://www.gstatic.com/images/icons/gplus-16.png\" alt=\"Share on Google+\"/></a>                                                                                                                                                                              \n\n\n\n</div></p><p><a href=\"https://linux.slashdot.org/story/17/04/24/1511239/the-linux-foundation-launches-iot-focused-open-source-edgex-foundry?utm_source=atom1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p><img src=\"http://feeds.feedburner.com/~r/Slashdot/slashdotLinuxatom/~4/mZrdBKs7sv0\" height=\"1\" width=\"1\" alt=\"\"/>"
+     },
+     "updated": "2017-04-24T17:20:00+00:00",
+     "author": {
+      "name": "msmash"
+     },
+     "category": {
+      "term": "internet"
+     },
+     "department": "going-forward",
+     "section": "linux",
+     "comments": "33",
+     "hit_parade": "33,32,17,16,0,0,0",
+     "origLink": "https://linux.slashdot.org/story/17/04/24/1511239/the-linux-foundation-launches-iot-focused-open-source-edgex-foundry?utm_source=atom1.0mainlinkanon&utm_medium=feed"
+    },
+    {
+     "id": "https://hardware.slashdot.org/story/17/04/23/0325234/linux-pc-maker-system76-plans-to-design-and-manufacture-its-own-hardware?utm_source=atom1.0mainlinkanon&utm_medium=feed",
+     "title": "Linux PC Maker System76 Plans To Design And Manufacture Its Own Hardware",
+     "link": {
+      "href": "http://rss.slashdot.org/~r/Slashdot/slashdotLinuxatom/~3/z1hjFjZFJMc/linux-pc-maker-system76-plans-to-design-and-manufacture-its-own-hardware"
+     },
+     "summary": {
+      "type": "html",
+      "content": "An anonymous reader quotes Liliputing:\nSystem76 is one of only a handful of PC vendors that exclusively sells computers with Linux-based software. Up until now, that's meant the company has chosen hardware that it could guarantee would work well with custom firmware and the Ubuntu Linux operating system... Starting in 2018 though, you may be able to buy a System76 computer that was designed and built in-house... CAD files for System76 computers will be open source, allowing anyone with the appropriate skills and equipment to build or modify their own cases based on the company's designs. \n\"We're prototyping with acrylic and moving to metal soon,\" the company says in a blog post, adding \"Our first in-house designed and manufactured desktops will ship next year. Laptops are more complex and will follow much later.\"<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=Linux+PC+Maker+System76+Plans+To+Design+And+Manufacture+Its+Own+Hardware%3A+http%3A%2F%2Fbit.ly%2F2pS4Jsw\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F17%2F04%2F23%2F0325234%2Flinux-pc-maker-system76-plans-to-design-and-manufacture-its-own-hardware%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n<a class=\"nobg\" href=\"http://plus.google.com/share?url=https://hardware.slashdot.org/story/17/04/23/0325234/linux-pc-maker-system76-plans-to-design-and-manufacture-its-own-hardware?utm_source=slashdot&amp;utm_medium=googleplus\" onclick=\"javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;\"><img src=\"http://www.gstatic.com/images/icons/gplus-16.png\" alt=\"Share on Google+\"/></a>                                                                                                                                                                              \n\n\n\n</div></p><p><a href=\"https://hardware.slashdot.org/story/17/04/23/0325234/linux-pc-maker-system76-plans-to-design-and-manufacture-its-own-hardware?utm_source=atom1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p><img src=\"http://feeds.feedburner.com/~r/Slashdot/slashdotLinuxatom/~4/z1hjFjZFJMc\" height=\"1\" width=\"1\" alt=\"\"/>"
+     },
+     "updated": "2017-04-23T04:07:00+00:00",
+     "author": {
+      "name": "EditorDavid"
+     },
+     "category": {
+      "term": "business"
+     },
+     "department": "open-source-specs",
+     "section": "hardware",
+     "comments": "101",
+     "hit_parade": "101,98,54,44,12,10,8",
+     "origLink": "https://hardware.slashdot.org/story/17/04/23/0325234/linux-pc-maker-system76-plans-to-design-and-manufacture-its-own-hardware?utm_source=atom1.0mainlinkanon&utm_medium=feed"
+    },
+    {
+     "id": "https://linux.slashdot.org/story/17/04/22/1822216/systemd-free-devuan-announces-its-first-stable-release-candidate-jessie-100?utm_source=atom1.0mainlinkanon&utm_medium=feed",
+     "title": "Systemd-Free Devuan Announces Its First Stable Release Candidate 'Jessie' 1.0.0",
+     "link": {
+      "href": "http://rss.slashdot.org/~r/Slashdot/slashdotLinuxatom/~3/4h8U7A92Oek/systemd-free-devuan-announces-its-first-stable-release-candidate-jessie-100"
+     },
+     "summary": {
+      "type": "html",
+      "content": "Long-time reader jaromil writes: Devuan 1.0.0-RC is announced, following its beta 2 release last year. The Debian fork that spawned over systemd controversy is reaching stability and plans long-term support. Devuan deploys an innovative continuous integration setup: with fallback on Debian packages, it overlays its own modifications and then uses the merged source repository to ship images for 11 ARM targets, a desktop and minimal live, vagrant and qemu virtual machines and the classic installer isos. The release announcement contains several links to projects that have already adopted this distribution as a base OS. \n\n\"Dear Init Freedom Lovers,\" begins the announcement, \"Once again the Veteran Unix Admins salute you!\" It points out that Devuan \"can be adopted as a flawless upgrade path from both Debian Wheezy and Jessie. This is a main goal for the Devuan Jessie stable release and has proven to be a very stable operation every time it has been performed. \"<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=Systemd-Free+Devuan+Announces+Its+First+Stable+Release+Candidate+'Jessie'+1.0.0%3A+http%3A%2F%2Fbit.ly%2F2oUiBRF\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Flinux.slashdot.org%2Fstory%2F17%2F04%2F22%2F1822216%2Fsystemd-free-devuan-announces-its-first-stable-release-candidate-jessie-100%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n<a class=\"nobg\" href=\"http://plus.google.com/share?url=https://linux.slashdot.org/story/17/04/22/1822216/systemd-free-devuan-announces-its-first-stable-release-candidate-jessie-100?utm_source=slashdot&amp;utm_medium=googleplus\" onclick=\"javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;\"><img src=\"http://www.gstatic.com/images/icons/gplus-16.png\" alt=\"Share on Google+\"/></a>                                                                                                                                                                              \n\n\n\n</div></p><p><a href=\"https://linux.slashdot.org/story/17/04/22/1822216/systemd-free-devuan-announces-its-first-stable-release-candidate-jessie-100?utm_source=atom1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p><img src=\"http://feeds.feedburner.com/~r/Slashdot/slashdotLinuxatom/~4/4h8U7A92Oek\" height=\"1\" width=\"1\" alt=\"\"/>"
+     },
+     "updated": "2017-04-22T18:34:00+00:00",
+     "author": {
+      "name": "EditorDavid"
+     },
+     "category": {
+      "term": "opensource"
+     },
+     "department": "init-freedom",
+     "section": "linux",
+     "comments": "361",
+     "hit_parade": "361,358,244,177,41,24,18",
+     "origLink": "https://linux.slashdot.org/story/17/04/22/1822216/systemd-free-devuan-announces-its-first-stable-release-candidate-jessie-100?utm_source=atom1.0mainlinkanon&utm_medium=feed"
+    },
+    {
+     "id": "https://linux.slashdot.org/story/17/04/21/1623233/red-hat-suffers-massive-data-center-network-outage?utm_source=atom1.0mainlinkanon&utm_medium=feed",
+     "title": "Red Hat Suffers Massive Data Center Network Outage",
+     "link": {
+      "href": "http://rss.slashdot.org/~r/Slashdot/slashdotLinuxatom/~3/UHoXWkXJO0M/red-hat-suffers-massive-data-center-network-outage"
+     },
+     "summary": {
+      "type": "html",
+      "content": "An anonymous reader writes: According to multiple reports on Twitter, the Fedora Infrastructure Status page, and the #fedora-admin Freenode IRC channel, Red Hat is suffering a massive network outage at their primary data center. Details are sketchy at this point, but it looks to be impacting the Red Hat Customer Portal; as well as all their repositories (including Fedora, EPEL, Copr); their public build system, Koji; and a whole host of other popular services. There is no ETA for restoration of services at this point.<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=Red+Hat+Suffers+Massive+Data+Center+Network+Outage%3A+http%3A%2F%2Fbit.ly%2F2pLLNJb\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Flinux.slashdot.org%2Fstory%2F17%2F04%2F21%2F1623233%2Fred-hat-suffers-massive-data-center-network-outage%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n<a class=\"nobg\" href=\"http://plus.google.com/share?url=https://linux.slashdot.org/story/17/04/21/1623233/red-hat-suffers-massive-data-center-network-outage?utm_source=slashdot&amp;utm_medium=googleplus\" onclick=\"javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;\"><img src=\"http://www.gstatic.com/images/icons/gplus-16.png\" alt=\"Share on Google+\"/></a>                                                                                                                                                                              \n\n\n\n</div></p><p><a href=\"https://linux.slashdot.org/story/17/04/21/1623233/red-hat-suffers-massive-data-center-network-outage?utm_source=atom1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p><img src=\"http://feeds.feedburner.com/~r/Slashdot/slashdotLinuxatom/~4/UHoXWkXJO0M\" height=\"1\" width=\"1\" alt=\"\"/>"
+     },
+     "updated": "2017-04-21T18:10:00+00:00",
+     "author": {
+      "name": "msmash"
+     },
+     "category": {
+      "term": "redhat"
+     },
+     "department": "outage-report",
+     "section": "linux",
+     "comments": "85",
+     "hit_parade": "85,83,46,37,9,4,3",
+     "origLink": "https://linux.slashdot.org/story/17/04/21/1623233/red-hat-suffers-massive-data-center-network-outage?utm_source=atom1.0mainlinkanon&utm_medium=feed"
+    },
+    {
+     "id": "https://tech.slashdot.org/story/17/04/20/1422256/file-system-improvements-to-the-windows-subsystem-for-linux?utm_source=atom1.0mainlinkanon&utm_medium=feed",
+     "title": "File System Improvements To the Windows Subsystem for Linux",
+     "link": {
+      "href": "http://rss.slashdot.org/~r/Slashdot/slashdotLinuxatom/~3/NmNyMAVhvaQ/file-system-improvements-to-the-windows-subsystem-for-linux"
+     },
+     "summary": {
+      "type": "html",
+      "content": "An anonymous reader shares a new article published on MSDN: In the latest Windows Insider build, the Windows Subsystem for Linux (WSL) now allows you to manually mount Windows drives using the DrvFs file system. Previously, WSL would automatically mount all fixed NTFS drives when you launch Bash, but there was no support for mounting additional storage like removable drives or network locations. Now, not only can you manually mount any drives on your system, we've also added support for other file systems such as FAT, as well as mounting network locations. This enables you to access any drive, including removable USB sticks or CDs, and any network location you can reach in Windows all from within WSL.<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=File+System+Improvements+To+the+Windows+Subsystem+for+Linux%3A+http%3A%2F%2Fbit.ly%2F2oP6nKc\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F17%2F04%2F20%2F1422256%2Ffile-system-improvements-to-the-windows-subsystem-for-linux%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n<a class=\"nobg\" href=\"http://plus.google.com/share?url=https://tech.slashdot.org/story/17/04/20/1422256/file-system-improvements-to-the-windows-subsystem-for-linux?utm_source=slashdot&amp;utm_medium=googleplus\" onclick=\"javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;\"><img src=\"http://www.gstatic.com/images/icons/gplus-16.png\" alt=\"Share on Google+\"/></a>                                                                                                                                                                              \n\n\n\n</div></p><p><a href=\"https://tech.slashdot.org/story/17/04/20/1422256/file-system-improvements-to-the-windows-subsystem-for-linux?utm_source=atom1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p><img src=\"http://feeds.feedburner.com/~r/Slashdot/slashdotLinuxatom/~4/NmNyMAVhvaQ\" height=\"1\" width=\"1\" alt=\"\"/>"
+     },
+     "updated": "2017-04-20T20:00:00+00:00",
+     "author": {
+      "name": "msmash"
+     },
+     "category": {
+      "term": "windows"
+     },
+     "department": "moving-forward",
+     "section": "technology",
+     "comments": "109",
+     "hit_parade": "109,106,57,42,14,9,6",
+     "origLink": "https://tech.slashdot.org/story/17/04/20/1422256/file-system-improvements-to-the-windows-subsystem-for-linux?utm_source=atom1.0mainlinkanon&utm_medium=feed"
+    },
+    {
+     "id": "https://news.slashdot.org/story/17/04/19/1752256/ubuntu-is-switching-to-wayland?utm_source=atom1.0mainlinkanon&utm_medium=feed",
+     "title": "Ubuntu Is Switching to Wayland",
+     "link": {
+      "href": "http://rss.slashdot.org/~r/Slashdot/slashdotLinuxatom/~3/sIUY6jtNL-E/ubuntu-is-switching-to-wayland"
+     },
+     "summary": {
+      "type": "html",
+      "content": "An anonymous reader shares a report: Ubuntu is to ship Wayland in place of X.Org Server by default. Mir, Canonical's home-spun alternative to Wayland, had been billed as the future of Ubuntu's convergence play. But both Unity 8 the convergence dream was recently put out to pasture, meaning this decision was widely expected. It's highly likely that the traditional X.Org Server will, as on Fedora, be included on the disc and accessible from whichever login screen Ubuntu devs opt to use in ubuntu 17.10 onwards. This session will be useful for users whose system experience issues running on Wayland, or who need features and driver support that is only present in the legacy X.Org server session.<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=Ubuntu+Is+Switching+to+Wayland%3A+http%3A%2F%2Fbit.ly%2F2oPqUN2\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F17%2F04%2F19%2F1752256%2Fubuntu-is-switching-to-wayland%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n<a class=\"nobg\" href=\"http://plus.google.com/share?url=https://news.slashdot.org/story/17/04/19/1752256/ubuntu-is-switching-to-wayland?utm_source=slashdot&amp;utm_medium=googleplus\" onclick=\"javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;\"><img src=\"http://www.gstatic.com/images/icons/gplus-16.png\" alt=\"Share on Google+\"/></a>                                                                                                                                                                              \n\n\n\n</div></p><p><a href=\"https://news.slashdot.org/story/17/04/19/1752256/ubuntu-is-switching-to-wayland?utm_source=atom1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p><img src=\"http://feeds.feedburner.com/~r/Slashdot/slashdotLinuxatom/~4/sIUY6jtNL-E\" height=\"1\" width=\"1\" alt=\"\"/>"
+     },
+     "updated": "2017-04-19T18:00:00+00:00",
+     "author": {
+      "name": "msmash"
+     },
+     "category": {
+      "term": "ubuntu"
+     },
+     "department": "little-surprise",
+     "section": "news",
+     "comments": "227",
+     "hit_parade": "227,227,146,133,40,23,14",
+     "origLink": "https://news.slashdot.org/story/17/04/19/1752256/ubuntu-is-switching-to-wayland?utm_source=atom1.0mainlinkanon&utm_medium=feed"
+    },
+    {
+     "id": "https://linux.slashdot.org/story/17/04/13/1946234/nintendo-discontinues-the-nes-classic-edition?utm_source=atom1.0mainlinkanon&utm_medium=feed",
+     "title": "Nintendo Discontinues the NES Classic Edition",
+     "link": {
+      "href": "http://rss.slashdot.org/~r/Slashdot/slashdotLinuxatom/~3/wfjkqfc4N4g/nintendo-discontinues-the-nes-classic-edition"
+     },
+     "summary": {
+      "type": "html",
+      "content": "A Nintendo representative has confirmed today that the company will be discontinuing the NES Classic Edition, \"a plug-and-play console that became popular with collectors as soon as it launched last fall,\" reports Polygon. The last shipments of the consoles will hit stores this month. From the report: [Nintendo said in a statement to IGN:] \"Throughout April, NOA territories will receive the last shipments of Nintendo Entertainment System: NES Classic Edition systems for this year. We encourage anyone interested in obtaining this system to check with retail outlets regarding availability. We understand that it has been difficult for many consumers to find a system, and for that we apologize. We have paid close attention to consumer feedback, and we greatly appreciate the incredible level of consumer interest and support for this product.\" \"NES Classic Edition wasn't intended to be an ongoing, long-term product. However, due to high demand, we did add extra shipments to our original plans,\" it told IGN.<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=Nintendo+Discontinues+the+NES+Classic+Edition%3A+http%3A%2F%2Fbit.ly%2F2os1kgT\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Flinux.slashdot.org%2Fstory%2F17%2F04%2F13%2F1946234%2Fnintendo-discontinues-the-nes-classic-edition%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n<a class=\"nobg\" href=\"http://plus.google.com/share?url=https://linux.slashdot.org/story/17/04/13/1946234/nintendo-discontinues-the-nes-classic-edition?utm_source=slashdot&amp;utm_medium=googleplus\" onclick=\"javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;\"><img src=\"http://www.gstatic.com/images/icons/gplus-16.png\" alt=\"Share on Google+\"/></a>                                                                                                                                                                              \n\n\n\n</div></p><p><a href=\"https://linux.slashdot.org/story/17/04/13/1946234/nintendo-discontinues-the-nes-classic-edition?utm_source=atom1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p><img src=\"http://feeds.feedburner.com/~r/Slashdot/slashdotLinuxatom/~4/wfjkqfc4N4g\" height=\"1\" width=\"1\" alt=\"\"/>"
+     },
+     "updated": "2017-04-13T22:00:00+00:00",
+     "author": {
+      "name": "BeauHD"
+     },
+     "category": {
+      "term": "nintendo"
+     },
+     "department": "end-of-an-era",
+     "section": "linux",
+     "comments": "104",
+     "hit_parade": "104,102,70,51,21,10,6",
+     "origLink": "https://linux.slashdot.org/story/17/04/13/1946234/nintendo-discontinues-the-nes-classic-edition?utm_source=atom1.0mainlinkanon&utm_medium=feed"
+    },
+    {
+     "id": "https://linux.slashdot.org/story/17/04/13/1512216/ubuntu-1704-zesty-zapus-featuring-unity-now-available-to-download?utm_source=atom1.0mainlinkanon&utm_medium=feed",
+     "title": "Ubuntu 17.04 'Zesty Zapus', Featuring Unity, Now Available To Download",
+     "link": {
+      "href": "http://rss.slashdot.org/~r/Slashdot/slashdotLinuxatom/~3/sUwrmieHqX4/ubuntu-1704-zesty-zapus-featuring-unity-now-available-to-download"
+     },
+     "summary": {
+      "type": "html",
+      "content": "Brian Fagioli, writing for BetaNews: Ubuntu 17.04 \"Zesty Zapus\" is available for download. No, this is not an Alpha or Beta, but an official stable version of the Linux-based operating system. Unfortunately, the release is a bit tainted -- it uses Unity as the official desktop environment, which Canonical has announced will be killed. Not to mention, there has been some controversy regarding some comments by Ubuntu founder Mark Shuttleworth. Just yesterday, the CEO of Canonical announced she is leaving the position. With all of the aforementioned controversy and chaos, it is understandably hard to get too excited for \"Zesty Zapus,\" especially as this is not a long term support version. With that said, if you are an existing Ubuntu user that likes Unity, this is certainly a worthwhile upgrade if you are OK with the shorter support. Unity may no longer have a future, but version 7 will continue to be supported -- for a while, at least.<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=Ubuntu+17.04+'Zesty+Zapus'%2C+Featuring+Unity%2C+Now+Available+To+Download%3A+http%3A%2F%2Fbit.ly%2F2orewmk\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Flinux.slashdot.org%2Fstory%2F17%2F04%2F13%2F1512216%2Fubuntu-1704-zesty-zapus-featuring-unity-now-available-to-download%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n<a class=\"nobg\" href=\"http://plus.google.com/share?url=https://linux.slashdot.org/story/17/04/13/1512216/ubuntu-1704-zesty-zapus-featuring-unity-now-available-to-download?utm_source=slashdot&amp;utm_medium=googleplus\" onclick=\"javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;\"><img src=\"http://www.gstatic.com/images/icons/gplus-16.png\" alt=\"Share on Google+\"/></a>                                                                                                                                                                              \n\n\n\n</div></p><p><a href=\"https://linux.slashdot.org/story/17/04/13/1512216/ubuntu-1704-zesty-zapus-featuring-unity-now-available-to-download?utm_source=atom1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p><img src=\"http://feeds.feedburner.com/~r/Slashdot/slashdotLinuxatom/~4/sUwrmieHqX4\" height=\"1\" width=\"1\" alt=\"\"/>"
+     },
+     "updated": "2017-04-13T15:30:00+00:00",
+     "author": {
+      "name": "msmash"
+     },
+     "category": {
+      "term": "os"
+     },
+     "department": "new-ubuntu-release",
+     "section": "linux",
+     "comments": "83",
+     "hit_parade": "83,80,49,41,13,5,4",
+     "origLink": "https://linux.slashdot.org/story/17/04/13/1512216/ubuntu-1704-zesty-zapus-featuring-unity-now-available-to-download?utm_source=atom1.0mainlinkanon&utm_medium=feed"
+    },
+    {
+     "id": "https://news.slashdot.org/story/17/04/12/1844230/dozens-of-canonical-employees-resign-as-ubuntu-switches-to-gnome-shuttleworth-returns-as-ceo?utm_source=atom1.0mainlinkanon&utm_medium=feed",
+     "title": "Dozens Of Canonical Employees Resign As Ubuntu Switches To GNOME, Shuttleworth Returns As CEO",
+     "link": {
+      "href": "http://rss.slashdot.org/~r/Slashdot/slashdotLinuxatom/~3/URnX9Ft46eg/dozens-of-canonical-employees-resign-as-ubuntu-switches-to-gnome-shuttleworth-returns-as-ceo"
+     },
+     "summary": {
+      "type": "html",
+      "content": "Alexander J Martin, reporting for The Register: More than 80 Canonical workers are facing the axe as founder Mark Shuttleworth has taken back the role of chief executive officer. The number, revealed today by The Reg, comes as Shuttleworth assumed the position from CEO of eight years Jane Silber, previously chief operating officer. The Reg has learned 31 or more staffers have already left the Ubuntu Linux maker ahead of Shuttleworth's rise, with at least 26 others now on formal notice and uncertainty surrounding the remainder. One individual has resigned while others, particularly in parts of the world with more stringent labour laws (such as the UK), are being left in the dark. The details come after The Reg revealed plans for the cuts as a commercial get-fit programme instituted by Shuttleworth. The Canonical founder is cutting numbers after an external assessment of his company by potential new financial backers found overstaffing and that projects lacked focus.<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=Dozens+Of+Canonical+Employees+Resign+As+Ubuntu+Switches+To+GNOME%2C+Shuttleworth+Returns+As+CEO%3A+http%3A%2F%2Fbit.ly%2F2pugIsA\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F17%2F04%2F12%2F1844230%2Fdozens-of-canonical-employees-resign-as-ubuntu-switches-to-gnome-shuttleworth-returns-as-ceo%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n<a class=\"nobg\" href=\"http://plus.google.com/share?url=https://news.slashdot.org/story/17/04/12/1844230/dozens-of-canonical-employees-resign-as-ubuntu-switches-to-gnome-shuttleworth-returns-as-ceo?utm_source=slashdot&amp;utm_medium=googleplus\" onclick=\"javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;\"><img src=\"http://www.gstatic.com/images/icons/gplus-16.png\" alt=\"Share on Google+\"/></a>                                                                                                                                                                              \n\n\n\n</div></p><p><a href=\"https://news.slashdot.org/story/17/04/12/1844230/dozens-of-canonical-employees-resign-as-ubuntu-switches-to-gnome-shuttleworth-returns-as-ceo?utm_source=atom1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p><img src=\"http://feeds.feedburner.com/~r/Slashdot/slashdotLinuxatom/~4/URnX9Ft46eg\" height=\"1\" width=\"1\" alt=\"\"/>"
+     },
+     "updated": "2017-04-12T18:45:00+00:00",
+     "author": {
+      "name": "msmash"
+     },
+     "category": {
+      "term": "ubuntu"
+     },
+     "department": "aftermath",
+     "section": "news",
+     "comments": "191",
+     "hit_parade": "191,183,135,104,30,16,10",
+     "origLink": "https://news.slashdot.org/story/17/04/12/1844230/dozens-of-canonical-employees-resign-as-ubuntu-switches-to-gnome-shuttleworth-returns-as-ceo?utm_source=atom1.0mainlinkanon&utm_medium=feed"
+    },
+    {
+     "id": "https://linux.slashdot.org/story/17/04/10/0226219/openelec-80-linux-distro-released-for-pc-raspberry-pi-wetek-hub?utm_source=atom1.0mainlinkanon&utm_medium=feed",
+     "title": "OpenELEC 8.0 Linux Distro Released For PC, Raspberry Pi, WeTek Hub",
+     "link": {
+      "href": "http://rss.slashdot.org/~r/Slashdot/slashdotLinuxatom/~3/vaqRPKoIOWY/openelec-80-linux-distro-released-for-pc-raspberry-pi-wetek-hub"
+     },
+     "summary": {
+      "type": "html",
+      "content": "BrianFagioli writes: Today, popular Linux distro OpenELEC reaches version 8.0 stable. This operating system leverages Kodi to provide a well-rounded media center experience. Not only are there images for PC, but for Raspberry Pi, and WeTek boxes too. 'OpenELEC 8.0 release contains a Kodi major version bump. If you are updating from OpenELEC 7.0 or earlier we strongly recommend you perform a full backup before performing a manual update. If you experience issues please perform a soft-reset to clear OpenELEC and Kodi settings,' says Stephan Raue, OpenELEC.<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=OpenELEC+8.0+Linux+Distro+Released+For+PC%2C+Raspberry+Pi%2C+WeTek+Hub%3A+http%3A%2F%2Fbit.ly%2F2oUiRAY\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Flinux.slashdot.org%2Fstory%2F17%2F04%2F10%2F0226219%2Fopenelec-80-linux-distro-released-for-pc-raspberry-pi-wetek-hub%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n<a class=\"nobg\" href=\"http://plus.google.com/share?url=https://linux.slashdot.org/story/17/04/10/0226219/openelec-80-linux-distro-released-for-pc-raspberry-pi-wetek-hub?utm_source=slashdot&amp;utm_medium=googleplus\" onclick=\"javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;\"><img src=\"http://www.gstatic.com/images/icons/gplus-16.png\" alt=\"Share on Google+\"/></a>                                                                                                                                                                              \n\n\n\n</div></p><p><a href=\"https://linux.slashdot.org/story/17/04/10/0226219/openelec-80-linux-distro-released-for-pc-raspberry-pi-wetek-hub?utm_source=atom1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p><img src=\"http://feeds.feedburner.com/~r/Slashdot/slashdotLinuxatom/~4/vaqRPKoIOWY\" height=\"1\" width=\"1\" alt=\"\"/>"
+     },
+     "updated": "2017-04-10T03:34:00+00:00",
+     "author": {
+      "name": "EditorDavid"
+     },
+     "category": {
+      "term": "media"
+     },
+     "department": "Linux-y-goodness",
+     "section": "linux",
+     "comments": "50",
+     "hit_parade": "50,48,29,22,5,2,0",
+     "origLink": "https://linux.slashdot.org/story/17/04/10/0226219/openelec-80-linux-distro-released-for-pc-raspberry-pi-wetek-hub?utm_source=atom1.0mainlinkanon&utm_medium=feed"
+    },
+    {
+     "id": "https://news.slashdot.org/story/17/04/09/1829209/canonical-founder-criticizes-free-software-developers-who-hate-on-whatevers-mainstream?utm_source=atom1.0mainlinkanon&utm_medium=feed",
+     "title": "Canonical Founder Criticizes Free Software Developers Who 'Hate On Whatever's Mainstream'",
+     "link": {
+      "href": "http://rss.slashdot.org/~r/Slashdot/slashdotLinuxatom/~3/Ry_xZ96GMJg/canonical-founder-criticizes-free-software-developers-who-hate-on-whatevers-mainstream"
+     },
+     "summary": {
+      "type": "html",
+      "content": "Canonical Founder Mark Shuttleworth said Saturday that \"I came to be disgusted with the hate\" on Canonical's display server Mir, saying it \"changed my opinion of the free software community.\" After announcing his company was abandoning Unity for GNOME, Shuttleworth posted a gracious thank-you note to the Unity community Friday on Google Plus. But on Saturday, he added a sharper comment:\n\"I used to think that it was a privilege to serve people who also loved the idea of service, but now I think many members of the free software community are just deeply anti-social types who love to hate on whatever is mainstream. When Windows was mainstream they hated on it. Rationally, Windows does many things well and deserves respect for those. And when Canonical went mainstream, it became the focus of irrational hatred too. The very same muppets would write about how terrible it was that IOS/Android had no competition and then how terrible it was that Canonical was investing in (free software!) compositing and convergence. Fuck that shit.\" \nThe comment begins by saying \"The whole Mir hate-fest boggled my mind - it's free software that does something invisible really well. It became a political topic as irrational as climate change or gun control, where being on one side or the other was a sign of tribal allegiance. We have a problem in the community when people choose to hate free software instead of loving that someone cares enough to take their life's work and make it freely available.\"<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=Canonical+Founder+Criticizes+Free+Software+Developers+Who+'Hate+On+Whatever's+Mainstream'%3A+http%3A%2F%2Fbit.ly%2F2oTqhEB\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F17%2F04%2F09%2F1829209%2Fcanonical-founder-criticizes-free-software-developers-who-hate-on-whatevers-mainstream%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n<a class=\"nobg\" href=\"http://plus.google.com/share?url=https://news.slashdot.org/story/17/04/09/1829209/canonical-founder-criticizes-free-software-developers-who-hate-on-whatevers-mainstream?utm_source=slashdot&amp;utm_medium=googleplus\" onclick=\"javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;\"><img src=\"http://www.gstatic.com/images/icons/gplus-16.png\" alt=\"Share on Google+\"/></a>                                                                                                                                                                              \n\n\n\n</div></p><p><a href=\"https://news.slashdot.org/story/17/04/09/1829209/canonical-founder-criticizes-free-software-developers-who-hate-on-whatevers-mainstream?utm_source=atom1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p><img src=\"http://feeds.feedburner.com/~r/Slashdot/slashdotLinuxatom/~4/Ry_xZ96GMJg\" height=\"1\" width=\"1\" alt=\"\"/>"
+     },
+     "updated": "2017-04-09T18:39:00+00:00",
+     "author": {
+      "name": "EditorDavid"
+     },
+     "category": {
+      "term": "ubuntu"
+     },
+     "department": "disunity-about-Unity",
+     "section": "news",
+     "comments": "374",
+     "hit_parade": "374,359,201,159,43,21,13",
+     "origLink": "https://news.slashdot.org/story/17/04/09/1829209/canonical-founder-criticizes-free-software-developers-who-hate-on-whatevers-mainstream?utm_source=atom1.0mainlinkanon&utm_medium=feed"
+    },
+    {
+     "id": "https://news.slashdot.org/story/17/04/07/1936255/canonical-founder-talks-about-ubuntu-desktop-switching-from-unity-to-gnome-and-focus-on-cloud?utm_source=atom1.0mainlinkanon&utm_medium=feed",
+     "title": "Canonical Founder Talks About Ubuntu Desktop Switching From Unity To GNOME, And Focus On Cloud",
+     "link": {
+      "href": "http://rss.slashdot.org/~r/Slashdot/slashdotLinuxatom/~3/_DXljp6m6iA/canonical-founder-talks-about-ubuntu-desktop-switching-from-unity-to-gnome-and-focus-on-cloud"
+     },
+     "summary": {
+      "type": "html",
+      "content": "Canonical founder Mark Shuttleworth on Friday talked about the move to switch Ubuntu's desktop user interface from Unity to GNOME, and putting a stop to development of Ubuntu software for phones and tablet: I would like to thank all of you for your spirit and intellect and energy in the Unity8 adventure. [...] Many elements of the code in the Ubuntu Phone project continue -- snaps grew out of our desire to ship apps reliably and efficiently and securely, the unity8 code itself will continue to be useful for UBports and other projects. And the ideas that we have pushed for are now spreading too. Finally, I should celebrate that Ubuntu consists of so many overlapping visions of personal computing, that we have the ability to move quickly to support the Ubuntu GNOME community with all the resources of Canonical to focus on stability, upgrades, integration and experience. That's only possible because of the diversity of shells in the Ubuntu family, and I am proud of all of our work across that full range.<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=Canonical+Founder+Talks+About+Ubuntu+Desktop+Switching+From+Unity+To+GNOME%2C+And+Focus+On+Cloud%3A+http%3A%2F%2Fbit.ly%2F2nM8kU2\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F17%2F04%2F07%2F1936255%2Fcanonical-founder-talks-about-ubuntu-desktop-switching-from-unity-to-gnome-and-focus-on-cloud%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n<a class=\"nobg\" href=\"http://plus.google.com/share?url=https://news.slashdot.org/story/17/04/07/1936255/canonical-founder-talks-about-ubuntu-desktop-switching-from-unity-to-gnome-and-focus-on-cloud?utm_source=slashdot&amp;utm_medium=googleplus\" onclick=\"javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;\"><img src=\"http://www.gstatic.com/images/icons/gplus-16.png\" alt=\"Share on Google+\"/></a>                                                                                                                                                                              \n\n\n\n</div></p><p><a href=\"https://news.slashdot.org/story/17/04/07/1936255/canonical-founder-talks-about-ubuntu-desktop-switching-from-unity-to-gnome-and-focus-on-cloud?utm_source=atom1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p><img src=\"http://feeds.feedburner.com/~r/Slashdot/slashdotLinuxatom/~4/_DXljp6m6iA\" height=\"1\" width=\"1\" alt=\"\"/>"
+     },
+     "updated": "2017-04-07T22:00:00+00:00",
+     "author": {
+      "name": "msmash"
+     },
+     "category": {
+      "term": "ubuntu"
+     },
+     "department": "moving-forward",
+     "section": "news",
+     "comments": "80",
+     "hit_parade": "80,79,50,41,10,6,3",
+     "origLink": "https://news.slashdot.org/story/17/04/07/1936255/canonical-founder-talks-about-ubuntu-desktop-switching-from-unity-to-gnome-and-focus-on-cloud?utm_source=atom1.0mainlinkanon&utm_medium=feed"
+    },
+    {
+     "id": "https://linux.slashdot.org/story/17/04/07/1918225/gnome-dev-schaller-assures-ubuntu-users-the-move-to-step-away-from-unity-will-bring-consistency-across-linux-distros?utm_source=atom1.0mainlinkanon&utm_medium=feed",
+     "title": "GNOME Dev Schaller Assures Ubuntu Users the Move To Step Away From Unity Will Bring Consistency Across Linux Distros",
+     "link": {
+      "href": "http://rss.slashdot.org/~r/Slashdot/slashdotLinuxatom/~3/ehJo53jHn5c/gnome-dev-schaller-assures-ubuntu-users-the-move-to-step-away-from-unity-will-bring-consistency-across-linux-distros"
+     },
+     "summary": {
+      "type": "html",
+      "content": "Earlier this week, Canonical announced that Ubuntu will be ditching Unity as the default user interface on desktops to go back to GNOME next year. The company also said that it will be ending development of Ubuntu software for phones and tablets, in what is a push to focus on cloud. In a blog post, Christian Schaller, a developer on Fedora and GNOME (and Senior Software Engineering Manager at Red Hat), offered some assurance to the community that this is the right move in the grand scheme of things. He writes on an official blog post: We look forward to keep working with great Canonical and Ubuntu people like Allison Lortie and Robert Ancell on projects of shared interest around GNOME, Wayland and hopefully Flatpak. It is worth mentioning that even as we [have] been competing with Unity and Ubuntu, we have also been collaborating with them, most recently on [the] integration of features they wanted from GNOME Software such as user reviews. Of course now sharing a bigger set of technologies collaboration will be even easier. I am personally happy to see this convergence of efforts happening because I have -- for a long time -- felt that the general level of investment in the Linux desktop has not been great enough to justify the plethora of Linux desktops out there. Now having reached a position where Canonical, Endless, Red Hat and Suse again share one desktop technology stack and along with consulting companies such as Centricular, CodeThink, Collabora and Igalia helping push parts of the stack forward, we are at least all pulling in the same direction. This change should also make life easier for ISV who now have a more clear target if they want to try to integrate their UI with the Linux desktop as 'the linux desktop' becomes a more meaningful term with this change.<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=GNOME+Dev+Schaller+Assures+Ubuntu+Users+the+Move+To+Step+Away+From+Unity+Will+Bring+Consistency+Across+Linux+Distros%3A+http%3A%2F%2Fbit.ly%2F2nmXZ5I\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Flinux.slashdot.org%2Fstory%2F17%2F04%2F07%2F1918225%2Fgnome-dev-schaller-assures-ubuntu-users-the-move-to-step-away-from-unity-will-bring-consistency-across-linux-distros%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n<a class=\"nobg\" href=\"http://plus.google.com/share?url=https://linux.slashdot.org/story/17/04/07/1918225/gnome-dev-schaller-assures-ubuntu-users-the-move-to-step-away-from-unity-will-bring-consistency-across-linux-distros?utm_source=slashdot&amp;utm_medium=googleplus\" onclick=\"javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;\"><img src=\"http://www.gstatic.com/images/icons/gplus-16.png\" alt=\"Share on Google+\"/></a>                                                                                                                                                                              \n\n\n\n</div></p><p><a href=\"https://linux.slashdot.org/story/17/04/07/1918225/gnome-dev-schaller-assures-ubuntu-users-the-move-to-step-away-from-unity-will-bring-consistency-across-linux-distros?utm_source=atom1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p><img src=\"http://feeds.feedburner.com/~r/Slashdot/slashdotLinuxatom/~4/ehJo53jHn5c\" height=\"1\" width=\"1\" alt=\"\"/>"
+     },
+     "updated": "2017-04-07T20:00:00+00:00",
+     "author": {
+      "name": "msmash"
+     },
+     "category": {
+      "term": "gnome"
+     },
+     "department": "one-goal",
+     "section": "linux",
+     "comments": "104",
+     "hit_parade": "104,102,67,55,11,5,1",
+     "origLink": "https://linux.slashdot.org/story/17/04/07/1918225/gnome-dev-schaller-assures-ubuntu-users-the-move-to-step-away-from-unity-will-bring-consistency-across-linux-distros?utm_source=atom1.0mainlinkanon&utm_medium=feed"
+    },
+    {
+     "id": "https://linux.slashdot.org/story/17/04/05/1812232/canonical-killing-unity-for-ubuntu-linux-will-switch-to-the-superior-gnome?utm_source=atom1.0mainlinkanon&utm_medium=feed",
+     "title": "Canonical Killing Unity For Ubuntu Linux, Will Switch To the Superior GNOME",
+     "link": {
+      "href": "http://rss.slashdot.org/~r/Slashdot/slashdotLinuxatom/~3/Fza_KOQ9IGw/canonical-killing-unity-for-ubuntu-linux-will-switch-to-the-superior-gnome"
+     },
+     "summary": {
+      "type": "html",
+      "content": "Reader BrianFagioli writes: Today, the company admits that it is throwing in the towel on Unity, as well as its vision for convergence with devices like phones and tablets. Starting with Ubuntu 18.04, the wonderful GNOME will once again become the default desktop environment! \"We are wrapping up an excellent quarter and an excellent year for the company, with performance in many teams and products that we can be proud of. As we head into the new fiscal year, it's appropriate to reassess each of our initiatives. I'm writing to let you know that we will end our investment in Unity8, the phone and convergence shell. We will shift our default Ubuntu desktop back to GNOME for Ubuntu 18.04 LTS,\" says Mark Shuttleworth, Founder of Ubuntu and Canonical.<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=Canonical+Killing+Unity+For+Ubuntu+Linux%2C+Will+Switch+To+the+Superior+GNOME%3A+http%3A%2F%2Fbit.ly%2F2nEQYbF\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Flinux.slashdot.org%2Fstory%2F17%2F04%2F05%2F1812232%2Fcanonical-killing-unity-for-ubuntu-linux-will-switch-to-the-superior-gnome%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n<a class=\"nobg\" href=\"http://plus.google.com/share?url=https://linux.slashdot.org/story/17/04/05/1812232/canonical-killing-unity-for-ubuntu-linux-will-switch-to-the-superior-gnome?utm_source=slashdot&amp;utm_medium=googleplus\" onclick=\"javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;\"><img src=\"http://www.gstatic.com/images/icons/gplus-16.png\" alt=\"Share on Google+\"/></a>                                                                                                                                                                              \n\n\n\n</div></p><p><a href=\"https://linux.slashdot.org/story/17/04/05/1812232/canonical-killing-unity-for-ubuntu-linux-will-switch-to-the-superior-gnome?utm_source=atom1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p><img src=\"http://feeds.feedburner.com/~r/Slashdot/slashdotLinuxatom/~4/Fza_KOQ9IGw\" height=\"1\" width=\"1\" alt=\"\"/>"
+     },
+     "updated": "2017-04-05T18:40:00+00:00",
+     "author": {
+      "name": "msmash"
+     },
+     "category": {
+      "term": "gnome"
+     },
+     "department": "changing-things",
+     "section": "linux",
+     "comments": "386",
+     "hit_parade": "386,381,257,213,79,42,33",
+     "origLink": "https://linux.slashdot.org/story/17/04/05/1812232/canonical-killing-unity-for-ubuntu-linux-will-switch-to-the-superior-gnome?utm_source=atom1.0mainlinkanon&utm_medium=feed"
+    }
+   ]
+  }
+ }
+}

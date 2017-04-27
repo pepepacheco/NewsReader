@@ -86,6 +86,10 @@ $.marcadores.load = function(){
     $.marcadores.lista = JSON.parse(localStorage.getItem('canales'));
     if ($.marcadores.lista === null) {
         $.marcadores.lista = new Array(0);
+        /* $.marcadores.lista = [
+            {"nombre":"Diario Montañés","url":"http://www.eldiariomontanes.es/rss/atom/","tipo":"atom"},{"nombre":"Ideal Jaén","url":"http://www.ideal.es/jaen/rss/atom/portada","tipo":"atom"},{"nombre":"CNN","url":"http://rss.cnn.com/rss/edition.rss","tipo":"rss"},{"nombre":"Barrapunto","url":"http://rss.slashdot.org/Slashdot/slashdotLinuxAtom","tipo":"atom"}];
+        $.marcadores.save();
+        $.ges_error.generarRejilla($.marcadores.lista);*/
     } else {
         $.ges_error.generarRejilla($.marcadores.lista);
     }

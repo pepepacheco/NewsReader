@@ -70,7 +70,8 @@ $.ges_error.refreshChannel = function(posicion){
     var url = $.marcadores.lista[posicion].url;
     var nombre = $.marcadores.lista[posicion].nombre; 
     // hay que actualizar #itemPOSICION
-    if ($.marcadores.lista[posicion].tipo === 'rss') { //rss
+    if ($.marcadores.lista[posicion].tipo === 'rss') {
+        // es rss
         $.ajax({
             url: "http://query.yahooapis.com/v1/public/yql",
             jsonp: "callback",
@@ -82,7 +83,9 @@ $.ges_error.refreshChannel = function(posicion){
             success: function( response ) { 
                 // Aquí proceso el código
                 var i;
-                var caja;                
+                var caja;
+                // limpiamos la caja donde van las noticias
+                $("#item"+posicion).empty();
                 // Guardo el ARRAY de noticias de este canal
                 var lista = response.query.results.item; 
                 for (i=0;i<response.query.count;i++){
@@ -103,7 +106,9 @@ $.ges_error.refreshChannel = function(posicion){
             },
             timeout: 3000
         });
-    } else { // atom
+    } else {
+        console.log("ATOM");
+        // debe ser atom
         $.ajax({
             url: "http://query.yahooapis.com/v1/public/yql",
             jsonp: "callback",
@@ -114,6 +119,27 @@ $.ges_error.refreshChannel = function(posicion){
             },
             success: function( response ) { 
                 // Aquí proceso el JSON
+                var i;
+                var caja;
+                // Guardo el ARRAY de noticias de este canal
+                var lista = response.query.results.entry;
+                var n_noticias = response.query.count;
+                // antes de añadir, hay que borrar lo antiguo
+                $("#item"+posicion).empty();
+                for (i=0;i<n_noticias;i++) {
+                    caja = $("<div></div>");
+                    caja.addClass("well well-sm");
+                    caja.append("<h3>"+lista[i].title+"</h3><br/>");
+                    if (lista[i].summary.content === undefined) {
+                        caja.append("<p>"+lista[i].summary+"</p>");
+                    } else {
+                         caja.append("<br>"+lista[i].summary.content+"<br>");
+                    }
+                    caja.append("<p>"+lista[i].updated+"</p>");
+                    caja.append("<p> <a href='"+lista[i].id+"'>Pulse aquí para abrir la noticia.</a></p>");
+
+                    $("#item"+posicion).append(caja);
+                }
             },
             error: function(XHR, textStatus, errorThrown) {
                 $.ges_error.alert('Error de conexión', 'No ha sido posible añadir el canal, compruebe su conexión a Internet.');
